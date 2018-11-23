@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
 } 
 
 header {
@@ -21,3 +20,18 @@ nav p {
     font-size: 25px;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    align-content: space-evenly;
+}
+
+img {
+    margin: 100px;
+    padding: 10px;
+    border: 1px yellowgreen solid;
+    border-radius: 5px;
+}
