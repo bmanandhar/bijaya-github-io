@@ -17,6 +17,10 @@ This project is being developed to meet requirements to graduate the WDI-49 at G
 * CSS used for styling
 * Bootstrap CDN for carousel
 * Some demos on animation
+* Use of 'this' keyword in javaScript/jQuery on image fading
+* Combined effect of css and jQuery mouseleave() method
+* change in the value css property on hover using jQuery
+
 
 
 Misc:

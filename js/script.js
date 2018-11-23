@@ -1,20 +1,15 @@
 
-// $(document).ready(function(){
-//     $("img").mouseenter(function(){
-//         $("img").fadeOut(1000);
-//     });
-
-//   $("img").mouseleave(function(){
-//     $("img").fadeOut(1000);
-//   });
-// });
-
-
-$("img").mouseenter(function(){
-    $("img").fadeTo(1000, 0.5);
+$("#my-image").mouseenter(function(){
+    $(this).fadeTo(0,.8);
 });
-$("img").mouseleave(function(){
-        $("img").fadeIn();
+$("#my-image").mouseleave(function(){
+        $(this).css("opacity",100);
+});
+
+
+$("#job").hover(function() {
+    $(this).css("margin-left", '90px');
+    $(this).css("color", "#786400");    
 });
 
 
