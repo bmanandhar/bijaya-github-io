@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="css/style.css">  
 </head>
 <body>
+    <label for="toggle" class="hamburger">&#9776;</label>
+    <div class="mobile-menu">
+        <a href="#content">About</a>            
+        <a href="#port">Port </a>
+        <a href="">Quotes</a>
+        <a href="">Contact</a>
+    </div>
     <header>
         <nav>
             <a href="#content">About</a>            
@@ -100,28 +107,47 @@
                 </a>
             </div>
             <div id="other-projects">
-                <h5>Other Projects that use public API's:</h5>
+                <h3>Projects</h3> that use public API's:</h5>
                 <p>Here are a few other projects:</p>
                 <ul>
-                    <li><a href="https://codepen.io/bmanandhar/pen/yvbyVL">Weather App &nbsp;</a>(https://openweathermap.org/)</li>
-                    <li><a href="https://codepen.io/bmanandhar/pen/wyKJrY">Random Quote Generator &nbsp;</a>(https://forismatic.com/en/)</li>
+                    <li>
+                        <a href="https://bmanandhar.github.io/bijaya.github.io/">Profile</a>
+                        <P>
+                            This is a project developed during the Boot Camp. 
+                        </P>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/bmanandhar/pen/yvbyVL">Weather App &nbsp;</a>
+                        <p>
+                            It use API data from the Open Weather Map website. The location has been derived directly as geo-coordinate where the client-computer accesses IPS that provides internet. User can check weather condition with an option to get temperature in fahrenheit and as well as celcius using toggle method (https://openweathermap.org/ and https://ipinfo.io).
+                        </p>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/bmanandhar/pen/wyKJrY">Random Quote Generator &nbsp;</a>
+                        <p> 
+                            It uses the API data from the source that generates quotes delivered by different famous persons in the world using click button. User can post these quotes to facebook or twitter(https://forismatic.com/en/).
+                        </p>
+                    </li>
                 </ul>
             </div>
         </section>
+        <section id="contact">
+            <form class="contact">
+                <input type="text" placeholder="Full Name" class="name">
+                <input type="email" placeholder="Email" class="email">
+                <input type="text" placeholder="Subject" class="subject">
+                <textarea name="" id="message" placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
 
-        <section id="">
+
+            </form>
+
+            </div>
         </section>
-
-        <section id="">
-        </section>
-
-
 
         <footer>
             <h1>This is footer</h1>
         </footer>
-
-
     </div>    
 
 <script type="text/javascript" src="js/script.js"></script>

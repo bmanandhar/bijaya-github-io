@@ -2,15 +2,28 @@ body {
     margin: 2px;
 }
 
-.container {
+.hamburger {
+    display: none;
+}
+
+.mobile-menu {
     display: flex;
     flex-direction: column;
-} 
+    background-color: grey;
+    flex-wrap: initial;
+    display: none;
+}
 
 header {
     height: 65px;
     background-color: lightpink;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+} 
 
 nav {
     display: flex;
@@ -36,13 +49,13 @@ nav a {
     align-items: center;
     margin: 100px 0 10px;
     padding: 2px;
-    border: 1px yellowgreen solid;
+    border: 2px yellow solid;
     border-radius: 3px;
 }
 
 #name {
     font-family: cursive, sans-serif,Arial, Helvetica, sans-serif;
-    }
+}
 
 h2:hover {
     color: cornsilk;
@@ -65,6 +78,11 @@ content {
     font-size: 25px;
     letter-spacing: .2em;
 }
+
+p {
+    font-size: 20px;
+}
+
 article {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -121,6 +139,32 @@ article p {
     align-content: center;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    padding: 10px;
+
+}
+
+.name, .email, .subject {
+    margin: 5px 190px 5px 5px;
+    padding: 10px;
+    border: 2px blue solid; 
+} 
+
+#message {
+    margin: 5px;
+    padding: 10px;
+    width: 75%;
+    height: 400px;
+
+}
+button {
+    width: 100px;
+    height: 30px;
+}
+
 @media screen and (max-width: 699px) and (min-width: 400px) {
     content {
         flex-direction: column;
@@ -138,5 +182,12 @@ article p {
     }
     article p {
         width: 370px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hamburger {
+        display: block;
+    cursor: pointer;
     }
 }

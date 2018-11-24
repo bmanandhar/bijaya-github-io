@@ -12,4 +12,7 @@ $("#job").hover(function() {
     $(this).css("font-family","-apple-system"); 
 });
 
+$("#hamburger").click(function() {
+    $("#mobile-menu").css("display","inblock");   //show();
+})
 
