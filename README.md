@@ -21,7 +21,9 @@ This project is being developed to meet requirements to graduate the WDI-49 at G
 * Combined effect of css and jQuery mouseleave() method
 * change in the value css property on hover using jQuery
 
-
+#### Other projects added to this:
+* Weather App: https://codepen.io/bmanandhar/pen/yvbyVL
+* Random Quate: https://codepen.io/bmanandhar/pen/wyKJrY
 
 Misc:
 https://code.jquery.com/jquery-2.1.0.js
