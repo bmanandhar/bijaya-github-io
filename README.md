@@ -20,9 +20,11 @@
 * Bootstrap CDN for carousel
 * Some demos on animation
 * Use of 'this' keyword in javaScript/jQuery on image fading
+* DOM manipulation using jQuery append method and javaScript 'for loop'
 * Combined effect of css and jQuery mouseleave() method
 * Change in the value css property on hover using jQuery
 * Simple jQuery-Effects examples on animation
+
 
 #### Other projects added to this:
 * Weather App: https://codepen.io/bmanandhar/pen/yvbyVL
@@ -54,3 +56,12 @@ https://www.journaldev.com/4293/jquery-image-slider-css
 * Top section of the page yet to be fixed when mobile-menu is used
 * footer element has not yet done properly
 
+
+### Here are a few screenshot-images that reflect he works I did in preparing this project.
+<img src="screenshots/screen00.jpg"><br>
+
+<img src="screenshots/screen01.jpg"><br>
+
+<img src="screenshots/screen02.jpg"><br>
+
+<img src="screenshots/screen03.jpg"><br>

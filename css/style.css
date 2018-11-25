@@ -197,6 +197,7 @@ article p {
 
 }
 
+/*Form for submission*/
 .name, .email, .subject {
     height: 50px;
     margin: 5px 190px 5px 5px;

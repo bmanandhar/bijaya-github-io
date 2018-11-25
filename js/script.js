@@ -1,3 +1,17 @@
+for (let i=0; i<5; i++){
+    
+    //Adds carousel indicators to images using a for loop
+    $(".carousel-indicators").append("<li data-target='#myCarousel' data-slide-to='"+i+"'></li>");
+        if (i==0) {
+            $("li").addClass("active");
+        }
+
+        //Loads images from images directory for carousel
+        $(".carousel-inner").append("<div class='item'><img src="+"images/img0"+i+".jpg"+" alt="+"Image0"+i+"></div>");
+        if (i==0){
+            $(".item").addClass("active");
+    }    
+};
 
 //Image on about section mouseenter-event
 $("#my-image").mouseenter(function() {
@@ -29,3 +43,5 @@ $(".two").mouseenter(function() {
 $(".two").mouseleave(function() {
     $(this).value = $(this).swing; // Original value ???
 })
+
+
