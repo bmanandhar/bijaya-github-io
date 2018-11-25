@@ -3,8 +3,8 @@
 #### Link to this project website
 * https://bmanandhar.github.io/bijaya.github.io/
 
-<<<<<<< HEAD
-This project is being developed to meet requirements to graduate the WDI-49 at General Asemble, San Francisco (dt 10/29/2018 thru 02/05/2019). Instructors wanted the cohorts to create the individual portfolio on their own as far as possible. This policy is being stricly followed. 
+
+#### This project is being developed to meet requirements to graduate the WDI-49 at General Asemble, San Francisco (dt 10/29/2018 thru 02/05/2019). Instructors wanted the cohorts to create the individual portfolio on their own as far as possible. This policy is being stricly followed. 
 
 ### Features
 
@@ -31,3 +31,16 @@ Misc:
 https://code.jquery.com/jquery-2.1.0.js
 Slider-image
 https://www.journaldev.com/4293/jquery-image-slider-css
+
+### Technologies used:
+* HTML5 including CSS and jQuery library
+* Bootstrap library of Carousel class
+
+### Research and helps
+
+* w3 School {https://www.w3schools.com}
+* Free Code Camp {https://medium.freecodecamp.org}
+* YouTube {https://www.youtube.com/}
+* Google {www.google.com}
+* CodePen {https://codepen.io}
+* GitHub {}

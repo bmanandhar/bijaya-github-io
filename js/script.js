@@ -16,3 +16,13 @@ $("#hamburger").click(function() {
     $("#mobile-menu").css("display","inblock");   //show();
 })
 
+console.log("Hello!!!");
+
+function checkForBlank() {
+    if ($(".name").value == "") {
+        alert("please enter name");
+        return false;
+    }
+}
+
+
