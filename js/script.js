@@ -1,28 +1,31 @@
 
-$("#my-image").mouseenter(function(){
+//Image on about section mouseenter-event
+$("#my-image").mouseenter(function() {
     $(this).fadeTo(0,.8);
 });
-$("#my-image").mouseleave(function(){
+
+//Image on about section mousleave-event
+$("#my-image").mouseleave(function() {
         $(this).css("opacity",100);
 });
 
-$("#job").hover(function() {
-    $(this).css("margin-left", '85px');
-    $(this).css("color", "#786400");   
-    $(this).css("font-family","-apple-system"); 
+//hover-event with class replacement css
+$(".job").hover(function() {
+    $(this).removeClass().addClass("job-on-hover");
 });
 
-$("#hamburger").click(function() {
-    $("#mobile-menu").css("display","inblock");   //show();
+//on-click hamburger to show navigation on small screen
+$(".hamburger").click(function() {
+    $("header").css("display","none");
+    $(".mobile-menu").show();
+});
+
+//quote-section showing jQuery-Effects animation
+$(".two").mouseenter(function() {
+    $(this).animate({left: "100px"}, "slow");
+    $(this).animate({fontSize: "3em"}, "slow");
+});
+
+$(".two").mouseleave(function() {
+    $(this).value = $(this).swing; // Original value ???
 })
-
-console.log("Hello!!!");
-
-function checkForBlank() {
-    if ($(".name").value == "") {
-        alert("please enter name");
-        return false;
-    }
-}
-
-

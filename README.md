@@ -21,7 +21,8 @@
 * Some demos on animation
 * Use of 'this' keyword in javaScript/jQuery on image fading
 * Combined effect of css and jQuery mouseleave() method
-* change in the value css property on hover using jQuery
+* Change in the value css property on hover using jQuery
+* Simple jQuery-Effects examples on animation
 
 #### Other projects added to this:
 * Weather App: https://codepen.io/bmanandhar/pen/yvbyVL
@@ -44,3 +45,12 @@ https://www.journaldev.com/4293/jquery-image-slider-css
 * Google {www.google.com}
 * CodePen {https://codepen.io}
 * GitHub {}
+* https://www.sitepoint.com/guide-jquery-animate-method/
+
+### Points yet unsolved
+* Returning to original values of css after jQuery-Effects animation
+* Form-validation
+* Alignment of columns using Flex-box model
+* Top section of the page yet to be fixed when mobile-menu is used
+* footer element has not yet done properly
+

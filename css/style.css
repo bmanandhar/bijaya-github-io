@@ -2,23 +2,26 @@ body {
     margin: 2px;
 }
 
+/*Hamburger menu icon*/
 .hamburger {
     display: none;
 }
 
+/*Mobile-menu when small screen size*/
 .mobile-menu {
     display: flex;
     flex-direction: column;
     background-color: grey;
-    flex-wrap: initial;
     display: none;
 }
 
+/*Header bar with navigation*/
 header {
     height: 65px;
     background-color: lightpink;
 }
 
+/*Main body content*/
 .container {
     display: flex;
     flex-direction: column;
@@ -26,6 +29,7 @@ header {
     background-color: lightskyblue;
 } 
 
+/*Nav-bar*/
 nav {
     display: flex;
     justify-content: flex-end;
@@ -36,8 +40,10 @@ nav a {
     margin: 8px 8px 0 8px;
     padding-top: 2px;
     font-size: 20px;
+    color: white;
 }
 
+/*About-me section*/
 #about-me {
     display: flex;
     flex-direction: column;    
@@ -54,6 +60,7 @@ nav a {
     border-radius: 3px;
 }
 
+/*Name and job with props changed upon hover*/
 #name {
     font-family: cursive, sans-serif,Arial, Helvetica, sans-serif;
 }
@@ -62,8 +69,15 @@ h2:hover {
     color: cornsilk;
 }
 
-#job {
+.job {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.job-on-hover {
+    margin-left: 85px;
+    color: #786400;   
+    font-family: -apple-system; 
 }
 
 content {
@@ -73,6 +87,7 @@ content {
     justify-content: center;
 }
 
+/*Heading for About-me section*/
 #about {
     text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -84,6 +99,7 @@ p {
     font-size: 20px;
 }
 
+/*DEscription- about me*/
 article {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -104,6 +120,7 @@ article p {
     text-align: justify;
 }
 
+/*Project section will show some animation effect, jQuery*/
 #port {
     display: flex;
     flex-direction: column;
@@ -125,6 +142,7 @@ article p {
     text-align: justify;
 }
 
+/*Bootstrap image carousel*/
 #myCarousel {
     display: flex;
     width: 400px;
@@ -140,6 +158,37 @@ article p {
     align-content: center;
 }
 
+/*Diplays animation on hover and mouseeneter*/
+#quotes {
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+#quotes h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.one {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+/*Para changes css props on hover*/
+.one:hover {
+      opacity: 1;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 16px;
+};
+  
+/*Submit-form contact*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -166,6 +215,13 @@ button {
     width: 100px;
     height: 30px;
 }
+
+/*footer section*/
+footer {
+    width: 200px;
+    background-color: lightcoral;
+}
+/*Media query for screen size follows here:*/
 
 @media screen and (max-width: 699px) and (min-width: 400px) {
     content {
