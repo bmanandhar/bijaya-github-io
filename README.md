@@ -6,6 +6,11 @@
 
 #### This project is being developed to meet requirements to graduate the WDI-49 at General Asemble, San Francisco (dt 10/29/2018 thru 02/05/2019). Instructors wanted the cohorts to create the individual portfolio on their own as far as possible. This policy is being stricly followed. 
 
+
+## Encouraging words 
+
+![Words](screenshots/screen04.jpg)
+
 ### Features
 
 * A header bar, static
@@ -56,6 +61,23 @@ https://www.journaldev.com/4293/jquery-image-slider-css
 * Top section of the page yet to be fixed when mobile-menu is used
 * footer element has not yet done properly
 
+### Interesting piece of code in javaScript language that is used in this project for DOM manipulation 
+`
+for (let i=0; i<5; i++){
+    
+    //Adds carousel-indicators to images using a for loop
+    $(".carousel-indicators").append("<li data-target='#myCarousel' data-slide-to='"+i+"'></li>");
+        if (i==0) {
+            $("li").addClass("active");
+        }
+
+        //Loads images from images directory for carousel
+        $(".carousel-inner").append("<div class='item'><img src="+"images/img0"+i+".jpg"+" alt="+"Image0"+i+"></div>");
+        if (i==0){
+            $(".item").addClass("active");
+    }    
+};
+`
 
 ### Here are a few screenshot-images that reflect the works I did in preparing this project.
 <img src="screenshots/screen00.jpg"><br>

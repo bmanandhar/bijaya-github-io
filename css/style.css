@@ -219,11 +219,14 @@ button {
 }
 
 /*footer section*/
-#footer {
+footer {
+    display: flex;
     height: 50px;
-    background-color: lightcoral;
-    margin: 20px 0 10px 0;
+    background-color: lightseagreen;
+    margin: 10px 0;
+    color: white;
 }
+
 /*Media query for screen size follows here:*/
 
 @media screen and (max-width: 699px) and (min-width: 400px) {
