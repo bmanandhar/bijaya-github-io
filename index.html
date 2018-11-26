@@ -134,13 +134,10 @@
 
         <!--Contact forms with validation-->
         <section id="contact">
-            <form class="contact">
-                <input type="text" placeholder="Full Name" class="name">
-                <input type="email" placeholder="Email" class="email">
-                <input type="text" placeholder="Subject" class="subject">
-                <textarea name="" id="message" placeholder="Message"></textarea>
-                <button action="#" type="submit" onsubmit="checkForBlank()">Submit</button>
-            </form>
+            <form method="POST" action="form-handler" onsubmit="return checkForm(this);">
+                <p>Input: <input type="text" size="32" name="inputfield">
+                <input type="submit"></p>
+                </form>
         </section>
 
         <!--footer starts here-->

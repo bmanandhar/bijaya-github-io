@@ -45,11 +45,25 @@ $(".two").mouseleave(function() {
 })
 
 //Form validation check
-$(".name").input(function() {
-    var input=$(this);
-    var is_name=input.val();
-    if (is_name=="") {
-        $(".name").addClass("error");
-        alert("Please enter name");
-    }
-})
+function checkForm(form)
+{
+  // validation fails if the input is blank
+  if(form.inputfield.value == "") {
+    alert("Error: Input is empty!");
+    form.inputfield.focus();
+    return false;
+  }
+
+  // regular expression to match only alphanumeric characters and spaces
+  var re = /^[\w ]+$/;
+
+  // validation fails if the input doesn't match our regular expression
+  if(!re.test(form.inputfield.value)) {
+    alert("Error: Input contains invalid characters!");
+    form.inputfield.focus();
+    return false;
+  }
+
+  // validation was successful
+  return true;
+}
