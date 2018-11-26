@@ -1,6 +1,6 @@
 for (let i=0; i<5; i++){
     
-    //Adds carousel indicators to images using a for loop
+    //Adds carousel-indicators to images using a for loop
     $(".carousel-indicators").append("<li data-target='#myCarousel' data-slide-to='"+i+"'></li>");
         if (i==0) {
             $("li").addClass("active");
@@ -18,7 +18,7 @@ $("#my-image").mouseenter(function() {
     $(this).fadeTo(0,.8);
 });
 
-//Image on about section mousleave-event
+//mouseleave-event, back to default value
 $("#my-image").mouseleave(function() {
         $(this).css("opacity",100);
 });
@@ -44,4 +44,12 @@ $(".two").mouseleave(function() {
     $(this).value = $(this).swing; // Original value ???
 })
 
-
+//Form validation check
+$(".name").input(function() {
+    var input=$(this);
+    var is_name=input.val();
+    if (is_name=="") {
+        $(".name").addClass("error");
+        alert("Please enter name");
+    }
+})

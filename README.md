@@ -57,7 +57,7 @@ https://www.journaldev.com/4293/jquery-image-slider-css
 * footer element has not yet done properly
 
 
-### Here are a few screenshot-images that reflect he works I did in preparing this project.
+### Here are a few screenshot-images that reflect the works I did in preparing this project.
 <img src="screenshots/screen00.jpg"><br>
 
 <img src="screenshots/screen01.jpg"><br>
